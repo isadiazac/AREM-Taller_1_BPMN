@@ -26,7 +26,7 @@ El ejercicio permitió comprender la importancia de la estandarización en el mo
 
 El equipo inició con el análisis del caso base de la Clínica Salud Viva, identificando el flujo del proceso de agendamiento de citas médicas y los actores involucrados.
 
-Se modeló el proceso utilizando **draw.io**, organizando el flujo de izquierda a derecha y separando los roles mediante lanes para mejorar la claridad visual y la asignación de responsabilidades.
+Se modeló el proceso utilizando **miro.com**, organizando el flujo de izquierda a derecha y separando los roles mediante lanes para mejorar la claridad visual y la asignación de responsabilidades.
 
 Posteriormente, se revisó el diagrama para asegurar:
 

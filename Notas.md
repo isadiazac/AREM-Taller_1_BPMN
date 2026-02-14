@@ -16,29 +16,18 @@ Durante la sesión de clase, el equipo trabajó en el análisis y modelado del p
 
 ### ✔ ¿Qué se discutió con el equipo?
 
-* La secuencia correcta del proceso de agendamiento.
-* Los actores involucrados y sus responsabilidades.
-* Los puntos de decisión críticos, especialmente la validación de disponibilidad.
-* La mejor forma de representar el flujo para que fuera claro y fácil de entender.
+La reunión se centró en definir la secuencia del proceso de agendamiento, identificando a los actores clave (Paciente y Sistema) y sus responsabilidades. Se analizaron los puntos críticos de decisión, como la validación de disponibilidad, y se acordó la mejor forma de representar el flujo para asegurar su claridad y fácil comprensión.
 
 ### ✔ ¿Qué decisiones de modelado se tomaron?
 
-* Modelar el proceso con flujo de izquierda a derecha para mejorar la legibilidad.
-* Separar los roles en lanes: Paciente y Sistema.
-* Utilizar un gateway exclusivo para representar la decisión de disponibilidad de la cita.
-* Finalizar el proceso con dos posibles eventos finales según el resultado.
+Para optimizar la legibilidad, se decidió modelar el flujo de izquierda a derecha, separando los roles del Paciente y el Sistema en carriles distintos. Se incorporó un gateway exclusivo para reflejar la decisión sobre la disponibilidad de la cita y se definieron dos eventos finales diferenciados: uno para la confirmación y otro para el rechazo de la cita.
 
 ### ✔ ¿Qué herramientas se usaron?
 
-* Discusión inicial en papel.
-* Digitalización del modelo en draw.io.
-* Revisión visual del diagrama para validar claridad y coherencia.
-
+El proceso comenzó con un boceto en papel para facilitar la lluvia de ideas. Posteriormente, se digitalizó el modelo utilizando draw.io, y se realizó una revisión visual del diagrama para verificar su claridad y coherencia con lo acordado.
 ### ✔ ¿Qué parte del trabajo se alcanzó a desarrollar?
 
-* Boceto completo del caso base.
-* Identificación de actores, eventos, actividades y decisiones.
-* Primer modelo BPMN digital del proceso de agendamiento.
+Se completó el boceto integral del caso base del proceso, identificando todos los elementos clave: actores, eventos, actividades y decisiones. Como resultado, se obtuvo el primer modelo BPMN digital del proceso de agendamiento.
 
 ## 🧩 Boceto inicial del modelo
 

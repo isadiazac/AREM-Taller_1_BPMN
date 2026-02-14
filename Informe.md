@@ -49,6 +49,10 @@ El modelo refleja el proceso real de agendamiento digital, donde el paciente int
 - La base de datos está actualizada.
 - El paciente ingresa información válida.
 
+## 📈 Diagrama final entregado Caso base: Clínica Salud Viva
+
+*Incluir enlace o imagen del archivo modelo-final.drawio correspondiente al cliente real.*
+
 ### 🔹 Cliente real: Proceso de cotización y venta
 
 #### Estructura del modelo
@@ -75,7 +79,7 @@ El modelo muestra el flujo completo desde la solicitud de cotización hasta el r
 - El cliente responde oportunamente a la cotización.
 - Los procesos contables están automatizados.
 
-## 📈 Diagrama final entregado
+## 📈 Diagrama final entregado Cliente real: Proceso de cotización y venta
 
 *Incluir enlace o imagen del archivo modelo-final.drawio correspondiente al cliente real.*
 

@@ -1,4 +1,4 @@
-#  📄 Informe Técnico del Taller
+# 📄 Informe Técnico del Taller
 
 ## 🔖 Nombre del Taller
 
@@ -12,56 +12,83 @@
 
 ## 🧠 Descripción general del trabajo
 
-El presente taller tuvo como objetivo modelar un proceso de negocio utilizando la notación BPMN, partiendo del caso base de la Clínica Salud Viva y aplicando los conocimientos adquiridos a un cliente real.
+El objetivo del taller fue modelar procesos de negocio utilizando la notación BPMN, partiendo del caso base de la Clínica Salud Viva y aplicando los conocimientos adquiridos a un proceso real del cliente.
 
-Durante el desarrollo del trabajo se identificaron eventos, actividades, decisiones, actores involucrados y puntos críticos del flujo, con el fin de representar el proceso de manera clara, estructurada y comprensible tanto para usuarios técnicos como de negocio.
+Durante el desarrollo del trabajo se identificaron eventos, actividades, decisiones, actores involucrados y puntos críticos del flujo, con el fin de representar los procesos de manera clara, estructurada y comprensible tanto para usuarios técnicos como de negocio.
 
 ## 🔧 Proceso de desarrollo
 
-El equipo inició analizando el caso base de la Clínica Salud Viva, identificando el flujo principal del proceso de agendamiento de citas médicas, así como los actores involucrados y las decisiones clave.
+El equipo inició con el análisis del caso base de la Clínica Salud Viva, identificando el flujo del proceso de agendamiento de citas médicas y los actores involucrados. Se modeló el proceso utilizando draw.io, organizando el flujo de izquierda a derecha y separando los roles mediante lanes para mejorar la claridad.
 
-Posteriormente, se realizó el modelado del proceso utilizando herramientas digitales como draw.io, organizando el flujo de izquierda a derecha y separando los roles mediante lanes. A medida que se avanzaba en el diagrama, se realizaron ajustes para mejorar la claridad, eliminar ambigüedades y asegurar el uso correcto de los elementos BPMN.
+Posteriormente, se revisó el diagrama para asegurar el uso correcto de eventos, actividades y gateways, eliminando ambigüedades y manteniendo un nivel adecuado de detalle.
 
-Finalmente, se adaptó la metodología al proceso del cliente real, justificando las diferencias y aplicando buenas prácticas de modelado.
+Finalmente, se aplicó la misma metodología al proceso del cliente real (proceso de cotización y venta), incorporando decisiones adicionales, más actores y validaciones propias del contexto empresarial.
 
 ## 🧩 Análisis del modelo propuesto
 
-### Estructura del modelo
+### 🔹 Caso base: Clínica Salud Viva
 
-El modelo BPMN se estructura mediante:
+#### Estructura del modelo
 
-- **Evento de inicio** que representa la solicitud del servicio.
-- **Actividades** que describen las tareas principales del proceso.
-- **Gateways exclusivos** para decisiones críticas.
-- **Evento de fin** que indica la finalización del proceso.
-- **Lanes** que separan responsabilidades por actor.
+El modelo se compone de:
 
-### Representación de las necesidades del cliente
+- **Evento de inicio** (paciente inicia el proceso).
+- **Actividades del paciente**: ingresar al sistema, seleccionar especialidad, médico y fecha.
+- **Actividad del sistema**: validar disponibilidad.
+- **Gateway exclusivo**: ¿cita disponible?
+- **Actividades del sistema**: registrar cita y mostrar mensaje.
+- **Eventos de fin** según disponibilidad.
 
-El modelo refleja las necesidades del cliente al mostrar de forma clara:
+#### Representación del proceso
 
-- Interacciones entre usuarios y sistemas.
-- Validaciones necesarias antes de completar el proceso.
-- Puntos donde pueden ocurrir demoras o errores.
+El modelo refleja el proceso real de agendamiento digital, donde el paciente interactúa con el sistema para reservar una cita médica y recibe retroalimentación inmediata según la disponibilidad.
 
-### Supuestos tomados
+#### Supuestos
 
-- El sistema de información funciona correctamente.
-- Los usuarios proporcionan datos válidos.
-- Las notificaciones se envían de forma automática.
+- El sistema funciona correctamente.
+- La base de datos está actualizada.
+- El paciente ingresa información válida.
+
+### 🔹 Cliente real: Proceso de cotización y venta
+
+#### Estructura del modelo
+
+El modelo incluye:
+
+- **Evento de inicio**: cliente solicita cotización.
+- **Actividades del asesor comercial**: registrar solicitud y generar cotización.
+- **Validación del sistema**: verificación de inventario.
+- **Gateway**: disponibilidad de stock.
+- **Actividad del sistema**: envío de cotización.
+- **Decisión del cliente**: aceptación o rechazo.
+- **Actividades del sistema**: generación de orden de venta, descuento de inventario y facturación.
+- **Actividad del área contable**: registro del movimiento contable.
+- **Evento final**: venta registrada y facturada.
+
+#### Representación de las necesidades del cliente
+
+El modelo muestra el flujo completo desde la solicitud de cotización hasta el registro contable de la venta, reflejando la interacción entre áreas comerciales, operativas y contables.
+
+#### Supuestos
+
+- El inventario del sistema está actualizado.
+- El cliente responde oportunamente a la cotización.
+- Los procesos contables están automatizados.
 
 ## 📈 Diagrama final entregado
 
-*Inserte aquí una imagen o enlace al archivo modelo-final.drawio.*
+*Incluir enlace o imagen del archivo modelo-final.drawio correspondiente al cliente real.*
 
 ## 📋 Tabla de actores, entidades o componentes
 
 | Nombre del elemento | Tipo | Descripción | Responsable |
 |---------------------|------|-------------|-------------|
 | Paciente | Actor | Usuario que agenda una cita médica | Cliente |
-| Sistema de citas | Sistema | Plataforma que gestiona disponibilidad | Organización |
-| Médico | Actor | Profesional que atiende la cita | Clínica |
-| Servicio de notificaciones | Sistema | Envía confirmaciones por correo o SMS | Sistema |
+| Sistema de citas | Sistema | Valida disponibilidad y registra citas | Organización |
+| Cliente | Actor | Persona que solicita una cotización | Empresa cliente |
+| Asesor comercial | Actor | Gestiona solicitudes y genera cotizaciones | Área comercial |
+| Sistema | Sistema | Verifica inventario, genera órdenes y facturas | Organización |
+| Área contable | Actor | Registra el movimiento contable de la venta | Área financiera |
 
 ## 🔍 Investigación complementaria
 
@@ -71,18 +98,28 @@ Buenas prácticas BPMN y ejemplos en la industria
 
 **Resumen:**
 
-Durante el modelado del proceso se aplicaron buenas prácticas de BPMN con el fin de garantizar claridad, comprensión y utilidad del diagrama. Se mantuvo una secuencia lógica del flujo, se utilizaron correctamente los eventos de inicio, intermedios y fin, y se emplearon gateways exclusivos para representar decisiones críticas. Asimismo, se separaron los roles mediante lanes y se nombraron las actividades con la estructura verbo + objeto para evitar ambigüedades.
+Durante el modelado se aplicaron buenas prácticas BPMN para garantizar claridad y comprensión. Se mantuvo un flujo lógico de izquierda a derecha, se utilizaron correctamente eventos de inicio y fin, y se emplearon gateways exclusivos para representar decisiones como disponibilidad de citas, stock y aceptación de cotizaciones. Asimismo, los roles se separaron mediante lanes para facilitar la identificación de responsabilidades y detectar posibles cuellos de botella.
 
-El uso de BPMN es ampliamente adoptado en diversos sectores. En el sector salud se utiliza para la gestión de citas médicas, optimizando la asignación de recursos y reduciendo tiempos de espera. En el sector bancario permite modelar procesos de aprobación de créditos, mejorando la trazabilidad y reduciendo errores. En el comercio electrónico, empresas como Amazon emplean BPMN para optimizar el procesamiento de pedidos y la logística, mejorando la experiencia del cliente.
+El uso de BPMN es común en múltiples industrias. En el sector salud se utiliza para la gestión de citas médicas, permitiendo optimizar recursos y reducir tiempos de espera. En el sector bancario se emplea para procesos de aprobación de créditos, mejorando la trazabilidad y reduciendo errores. En el comercio electrónico, empresas como Amazon utilizan BPMN para optimizar el procesamiento de pedidos, la gestión de inventarios y la facturación, mejorando la eficiencia operativa y la experiencia del cliente.
 
-Un caso real en el sector salud evidenció que la implementación de BPMN en el proceso de admisión hospitalaria permitió reducir tiempos de atención, disminuir errores en registros y mejorar la experiencia del paciente, demostrando su valor como herramienta para la mejora continua.
+Un caso real del sector salud evidenció que la implementación de BPMN en el proceso de admisión hospitalaria permitió reducir tiempos de atención, disminuir errores en registros y mejorar la experiencia del paciente, demostrando su valor como herramienta para la mejora continua y la automatización de procesos.
+
+## 📊 Comparación entre el caso base y el cliente real
+
+| Aspecto | Clínica Salud Viva | Cliente Real |
+|---------|-------------------|--------------|
+| Tipo de proceso | Agendamiento de citas | Cotización y venta |
+| Actores | Paciente, Sistema | Cliente, Asesor, Sistema, Área contable |
+| Decisiones | Disponibilidad de cita | Stock disponible y aceptación de cotización |
+| Resultado final | Cita registrada | Venta facturada |
+| Complejidad | Baja | Alta |
 
 ## 📚 Referencias
 
 - Object Management Group. Business Process Model and Notation (BPMN) 2.0 Specification.
-- Documentación oficial de BPMN — https://www.omg.org/spec/BPMN/
-- Ejemplos de aplicación BPMN en sector salud y comercio electrónico.
+- OMG. BPMN Official Documentation: https://www.omg.org/spec/BPMN/
+- Ejemplos de aplicación BPMN en sectores salud, comercio electrónico y financiero.
 
 ---
 
-*Este documento hace parte de la entrega del Taller 1 del curso de Arquitectura Empresarial - Universidad de La Sabana.*
+*Este documento hace parte de la entrega del Taller 1 del curso Arquitectura Empresarial - Universidad de La Sabana.*

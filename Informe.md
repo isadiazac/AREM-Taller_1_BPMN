@@ -31,11 +31,11 @@ Se modeló el proceso utilizando **miro.com**, organizando el flujo de izquierda
 Posteriormente, se revisó el diagrama para asegurar:
 
 * Uso correcto de eventos de inicio y fin
-* Aplicación adecuada de gateways exclusivos (XOR)
-* Coherencia semántica en las actividades (verbo + objeto)
+* Aplicación adecuada de gateways exclusivos
+* Coherencia en las actividades 
 * Nivel de detalle apropiado
 
-Finalmente, se aplicó la misma metodología al proceso del cliente real (proceso de cotización y venta), incorporando decisiones adicionales, más actores y validaciones propias del contexto empresarial.
+Finalmente, se aplicó la misma metodología al proceso del cliente real (proceso de cotización y venta basados en la empresa en la que pensamos trabajar el proyecto), incorporando decisiones adicionales, más actores y validaciones propias del contexto empresarial.
 
 ---
 
@@ -62,13 +62,13 @@ El modelo refleja el proceso real de agendamiento digital, donde el paciente int
 
 La estructura permite visualizar claramente el punto crítico del proceso: la validación de disponibilidad, que determina la continuidad o finalización del flujo.
 
-### 📌 Supuestos
+### Supuestos
 
 * El sistema funciona correctamente.
 * La base de datos está actualizada.
 * El paciente ingresa información válida.
 
-### ⚠️ Puntos críticos identificados
+### Puntos críticos identificados
 
 * Dependencia de disponibilidad médica actualizada.
 * Sincronización correcta entre plataforma y base de datos.
@@ -112,13 +112,13 @@ Se identificaron dos puntos críticos de decisión:
 
 La inclusión del registro contable permite visualizar la integración entre áreas comerciales, operativas y financieras, evidenciando cómo un evento comercial impacta directamente en los sistemas contables de la organización.
 
-### 📌 Supuestos
+### Supuestos
 
 * Inventario actualizado en tiempo real.
 * Cliente responde oportunamente.
 * Sistemas CRM y contable integrados.
 
-### ⚠️ Puntos críticos identificados
+### Puntos críticos identificados
 
 * Riesgo de sobreventa por inventario desactualizado.
 * Demoras en respuesta del cliente.

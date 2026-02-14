@@ -51,7 +51,9 @@ El modelo refleja el proceso real de agendamiento digital, donde el paciente int
 
 ## 📈 Diagrama final entregado Caso base: Clínica Salud Viva
 
-*Incluir enlace o imagen del archivo modelo-final.drawio correspondiente al cliente real.*
+<img width="1738" height="850" alt="image" src="https://github.com/user-attachments/assets/bfac1248-6dd4-4cfe-b082-e783ae687690" />
+[Ver diagrama en Miro](https://miro.com/welcomeonboard/SUJ0WUVJaGY5bEJUd01pb2ZRWGZrL3ZlRGhadlJUV0hvNzJJcEN5aWJETXM2RUs3OGtRL241a09HMlVXbGlTT0pid29mcEhaSlVvVWhDVTl6UitHRW1nTjdyT3h2ZytVTmFiZEtSdjFDMlZPcXh2bmk2YWdzS1lTbXpBVUdOZEhQdGo1ZEV3bUdPQWRZUHQzSGl6V2NBPT0hdjE=?share_link_id=10153609605)
+
 
 ### 🔹 Cliente real: Proceso de cotización y venta
 
@@ -81,7 +83,9 @@ El modelo muestra el flujo completo desde la solicitud de cotización hasta el r
 
 ## 📈 Diagrama final entregado Cliente real: Proceso de cotización y venta
 
-*Incluir enlace o imagen del archivo modelo-final.drawio correspondiente al cliente real.*
+*<img width="1774" height="1143" alt="image" src="https://github.com/user-attachments/assets/72453266-3625-4419-94ed-5a3ecfae2329" />
+[Ver diagrama en Miro](https://miro.com/welcomeonboard/SFZGYVI3RldmdGo5T0pxYTArYkNUVVFXTkRXelpkclM1cFBsK3dOZ0tvS0xpWDhPZzJ3OENab3ZlTzh1SVNxbVVidTN1V3Q0WlFQNkVQQ1FhQm0xWkdnTjdyT3h2ZytVTmFiZEtSdjFDMlV6V2Z5RURCM01vcE9oS0hlUkhZV1p0R2lncW1vRmFBVnlLcVJzTmdFdlNRPT0hdjE=?share_link_id=600125739103)
+
 
 ## 📋 Tabla de actores, entidades o componentes
 

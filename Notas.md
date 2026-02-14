@@ -37,11 +37,11 @@ Se elaboró un boceto inicial en papel durante la sesión y posteriormente se di
 
 | Tarea asignada | Responsable | Fecha estimada |
 |----------------|-------------|----------------|
-| Ajuste del modelo BPMN del caso base | Isabela Díaz Acosta | 14/02/2026 |
-| Modelado del proceso del cliente real | Isabela Díaz Acosta | 15/02/2026 |
-| Redacción del informe final | Sebastián Sánchez Sandoval | 16/02/2026 |
-| Investigación de buenas prácticas BPMN | Samuel Esteban López Huertas | 16/02/2026 |
-| Revisión y corrección del repositorio | Todo el equipo | 17/02/2026 |
+| Ajuste del modelo BPMN del caso base | Isabela Díaz Acosta | 17/02/2026 |
+| Modelado del proceso del cliente real | Isabela Díaz Acosta | 13/02/2026 |
+| Redacción del informe final | Sebastián Sánchez Sandoval | 13/02/2026 |
+| Investigación de buenas prácticas BPMN | Samuel Esteban López Huertas | 12/02/2026 |
+| Revisión y corrección del repositorio | Todo el equipo | 13/02/2026 |
 
 ---
 
